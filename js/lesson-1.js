@@ -88,3 +88,73 @@
 // } else {
 //     alert('Я вас не знаю');
 // }
+
+// TAsk 6
+
+// let num = 0;
+
+// while (num < 20) {
+//     num += 1;
+//     console.log(num);
+// }
+
+// Task 7
+// let sum = 0;
+// function getNumber(min, max) {
+//     while (max >= min) {
+//         if (max % 2 === 0) {
+//             sum += max;
+//         }
+//         console.log(max);
+//         max -= 1;
+//     }
+//     return console.log(sum);
+// }
+
+// getNumber(5, 15);
+
+// Task 8
+
+// function min(a, b) {
+//     if (typeof a !== 'number' || typeof b !== 'number') {
+//         return 'Not a number!';
+//     }
+//         return a>b ? b : a;
+// }
+
+// console.log(min(6, 3));
+// console.log(min('teto', 3));
+
+
+// Task 9
+
+// function isAdult(age) {
+//     if (age >= 18) {
+//         return true;
+//     } else {
+//         confirm("Your haven't 18 age. Continue?")
+//     }
+// }
+
+// console.log(isAdult(19));
+// isAdult(13);
+
+// Task 10
+
+function fizzBuzz(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        return 'fizzbuzz';
+    } else if (num % 5 === 0) {
+        return 'buzz';
+    } else if (num % 3 === 0) {
+        return 'fizz';
+    } else {
+        return 'no fizz no buzz :('
+    }
+}
+
+console.log(fizzBuzz(3));
+console.log(fizzBuzz(5));
+console.log(fizzBuzz(15));
+console.log(fizzBuzz(22));
+
